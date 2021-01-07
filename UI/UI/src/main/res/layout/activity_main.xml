@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+
+
+    <TextView
+        android:id="@+id/tvTranslate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="@string/rTranslate"
+        android:textSize="27sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/bStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rStart"
+        android:textSize="27sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="156dp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/bHover"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:text="@string/rHover"
+        android:textSize="27sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/bStart"
+        app:layout_constraintEnd_toStartOf="@+id/bLand"
+        app:layout_constraintStart_toEndOf="@+id/bStart">
+
+    </Button>
+
+    <Button
+        android:id="@+id/bLand"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:text="@string/rLand"
+        android:textSize="27sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/bHover"
+        app:layout_constraintEnd_toEndOf="parent">
+
+    </Button>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/rLatitude"
+        android:hint="@string/rLatitude"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toStartOf="@+id/editText2"
+        app:layout_constraintStart_toEndOf="@+id/tvTranslate"
+        app:layout_constraintTop_toBottomOf="@+id/divider">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/rAltitude"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toStartOf="@+id/editText4"
+        app:layout_constraintStart_toEndOf="@+id/tvTranslate"
+        app:layout_constraintTop_toBottomOf="@+id/editText3"
+        android:autofillHints="@string/rAltitude" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/rLongitude"
+        android:hint="@string/rLongitude"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/rHeight"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        android:autofillHints="@string/rHeight">
+
+    </EditText>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="12dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bHover" />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="24dp"
+        android:src="@drawable/gps_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"></ImageButton>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

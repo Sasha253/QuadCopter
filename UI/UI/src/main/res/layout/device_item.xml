@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="15dp"
+    android:paddingEnd="5dp">
+
+    <TextView
+        android:id="@+id/tvItem1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/device_item1"
+        android:textSize="40sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/cbDone1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toTopOf="@+id/cbDone2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvItem2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/device_item2"
+        android:textSize="40sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf ="@id/tvItem1" />
+
+    <CheckBox
+        android:id="@+id/cbDone2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toTopOf="@+id/cbDone3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf ="@id/tvItem1" />
+
+    <TextView
+        android:id="@+id/tvItem3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/device_item3"
+        android:textSize="40sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf ="@id/tvItem2" />
+
+    <CheckBox
+        android:id="@+id/cbDone3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toTopOf="@+id/cbDone4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf ="@id/tvItem2" />
+
+    <TextView
+        android:id="@+id/tvItem4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/device_item4"
+        android:textSize="40sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf ="@id/tvItem3" />
+
+    <CheckBox
+        android:id="@+id/cbDone4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toTopOf="@+id/cbDone5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf ="@id/tvItem3" />
+
+    <TextView
+        android:id="@+id/tvItem5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/device_item5"
+        android:textSize="40sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf ="@id/tvItem4" />
+
+    <CheckBox
+        android:id="@+id/cbDone5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toTopOf="@+id/cbDone6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf ="@id/tvItem4" />
+
+    <TextView
+        android:id="@+id/tvItem6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/device_item6"
+        android:textSize="40sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf ="@id/tvItem5" />
+
+    <CheckBox
+        android:id="@+id/cbDone6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toTopOf="@+id/cbDone7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf ="@id/tvItem5" />
+
+    <TextView
+        android:id="@+id/tvItem7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/device_item7"
+        android:textSize="40sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf ="@id/tvItem6" />
+
+    <CheckBox
+        android:id="@+id/cbDone7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toTopOf="@+id/cbDone8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf ="@id/tvItem6" />
+
+    <TextView
+        android:id="@+id/tvItem8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/device_item8"
+        android:textSize="40sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf ="@id/tvItem7" />
+
+    <CheckBox
+        android:id="@+id/cbDone8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toTopOf="@+id/cbDone9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf ="@id/tvItem7" />
+
+    <TextView
+        android:id="@+id/tvItem9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/device_item9"
+        android:textSize="40sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf ="@id/tvItem8" />
+
+    <CheckBox
+        android:id="@+id/cbDone9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toTopOf="@+id/cbDone10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf ="@id/tvItem8" />
+
+    <TextView
+        android:id="@+id/tvItem10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/device_item10"
+        android:textSize="40sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf ="@id/tvItem9" />
+
+    <CheckBox
+        android:id="@+id/cbDone10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvItem9" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

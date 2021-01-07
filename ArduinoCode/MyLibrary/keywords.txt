@@ -1,0 +1,7 @@
+Buzzer	KEYWORD1
+powerOn	KEYWORD2
+powerOff	KEYWORD2
+
+Led	KEYWORD1
+
+blinkLed	KEYWORD2

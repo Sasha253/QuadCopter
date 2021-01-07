@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">QuadCopter</string>
+    <string name="device_item1"> Pololu </string>
+    <string name="device_item2"> SD_Card </string>
+    <string name="device_item3"> Propellers </string>
+    <string name="device_item4"> GPS </string>
+    <string name="device_item5"> HSR05 </string>
+    <string name="device_item6"> BN055 </string>
+    <string name="device_item7"> MPU6050 </string>
+    <string name="device_item8"> Leg_Motors </string>
+    <string name="device_item9"> BMS </string>
+    <string name="device_item10"> Magnetometer </string>
+
+    <string name="rTranslate">Translate</string>
+    <string name="rStart">Start</string>
+    <string name="rHover">Hover</string>
+    <string name="rLand">Land</string>
+    <string name="rLatitude">Latitude…</string>
+    <string name="rLongitude">Longitude…</string>
+    <string name="rAltitude">Altitude…</string>
+    <string name="rHeight">Height…</string>
+</resources>
